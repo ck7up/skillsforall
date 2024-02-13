@@ -1,0 +1,101 @@
+AttackID,AttackType,AttackDate,TargetSystem,AttackVector,Severity,AttackerIP,VictimIP,Status
+1,Malware,2022-02-15,CorporateServer,Email,High,192.168.1.100,10.0.0.1,Resolved
+2,Phishing,2022-02-20,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.2,In Progress
+3,,,,,,104.27.138.153,10.0.0.3,Open
+4,Ransomware,2022-03-05,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.4,Resolved
+5,,2022-03-10,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.5,Open
+6,Phishing,2022-03-12,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.6,Open
+7,Malware,2022-03-15,CorporateServer,Email,High,192.168.1.101,10.0.0.7,Resolved
+8,,2022-03-20,WebServer,Network,Critical,104.27.138.153,10.0.0.8,In Progress
+9,Ransomware,2022-03-25,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.9,Open
+10,SQL Injection,2022-03-28,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.10,Resolved
+11,Malware,2022-04-02,CorporateServer,Email,High,192.168.1.102,10.0.0.11,Open
+12,Phishing,2022-04-05,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,,Resolved
+13,Distributed Denial of Service (DDoS),2022-04-10,WebServer,Network,,,10.0.0.13,Open
+14,,2022-04-15,DatabaseServer,,High,185.174.171.4,10.0.0.14,In Progress
+15,SQL Injection,,,Code Injection,Critical,192.0.2.55,10.0.0.15,Resolved
+16,Phishing,2022-04-20,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.16,Open
+17,Malware,2022-04-25,CorporateServer,Email,High,192.168.1.103,10.0.0.17,Resolved
+18,Distributed Denial of Service (DDoS),2022-04-28,WebServer,Network,Critical,104.27.138.153,10.0.0.18,In Progress
+19,Ransomware,2022-05-02,DatabaseServer,Malicious Link,High,185.174.171.4,,Resolved
+20,SQL Injection,2022-05-05,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.20,Open
+21,Malware,2022-05-10,CorporateServer,Email,High,192.168.1.104,10.0.0.21,Resolved
+22,Phishing,2022-05-15,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.22,Open
+23,Distributed Denial of Service (DDoS),2022-05-18,WebServer,Network,Critical,104.27.138.153,10.0.0.23,Resolved
+24,Ransomware,2022-05-22,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.24,In Progress
+25,SQL Injection,2022-05-25,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.25,Resolved
+26,Phishing,2022-05-28,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.26,Open
+27,Malware,2022-06-02,CorporateServer,Email,High,192.168.1.105,10.0.0.27,Resolved
+28,Distributed Denial of Service (DDoS),2022-06-05,WebServer,Network,Critical,104.27.138.153,10.0.0.28,In Progress
+29,Ransomware,2022-06-10,DatabaseServer,Malicious Link,High,185.174.171.4,,Open
+30,SQL Injection,2022-06-15,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.30,Resolved
+31,Malware,,,Email,High,192.168.1.106,10.0.0.31,Open
+32,,2022-06-22,EmployeeWorkstation,Social Engineering,,203.0.113.42,10.0.0.32,Resolved
+33,Distributed Denial of Service (DDoS),2022-06-25,WebServer,Network,Critical,104.27.138.153,10.0.0.33,Open
+34,Ransomware,2022-06-28,DatabaseServer,Malicious Link,High,,10.0.0.34,Resolved
+35,SQL Injection,2022-07-02,,,,,,
+36,Malware,,CorporateServer,Email,High,192.168.1.107,10.0.0.35,In Progress
+37,Phishing,2022-07-10,EmployeeWorkstation,,Medium,203.0.113.42,,Resolved
+38,,2022-07-15,WebServer,Network,Critical,104.27.138.153,10.0.0.37,Open
+39,Ransomware,2022-07-18,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.38,Resolved
+40,SQL Injection,2022-07-22,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.39,In Progress
+41,Phishing,2022-07-25,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.40,Resolved
+42,Malware,2022-07-28,CorporateServer,Email,High,192.168.1.108,10.0.0.41,Resolved
+43,Distributed Denial of Service (DDoS),2022-08-02,WebServer,Network,Critical,104.27.138.153,10.0.0.42,Open
+44,Ransomware,,,,,,,Resolved
+45,SQL Injection,2022-08-10,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.44,Open
+46,Malware,2022-08-15,CorporateServer,Email,High,192.168.1.109,10.0.0.45,Resolved
+47,Phishing,2022-08-18,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.46,Resolved
+48,Distributed Denial of Service (DDoS),2022-08-22,WebServer,Network,Critical,104.27.138.153,10.0.0.47,Open
+49,Ransomware,2022-08-25,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.48,Resolved
+50,SQL Injection,2022-08-28,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.49,Resolved
+51,Phishing,2022-09-02,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.50,Open
+52,Malware,2022-09-05,CorporateServer,Email,High,192.168.1.110,,Resolved
+53,Distributed Denial of Service (DDoS),2022-09-10,WebServer,Network,Critical,104.27.138.153,10.0.0.52,In Progress
+54,Ransomware,2022-09-15,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.53,Resolved
+55,SQL Injection,2022-09-18,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.54,Resolved
+56,Phishing,,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.55,Open
+57,Malware,2022-09-25,CorporateServer,Email,High,192.168.1.111,10.0.0.56,Resolved
+58,Distributed Denial of Service (DDoS),2022-09-28,WebServer,Network,Critical,104.27.138.153,10.0.0.57,In Progress
+59,Ransomware,2022-10-02,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.58,Resolved
+60,SQL Injection,2022-10-05,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.59,Resolved
+61,,,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.60,Open
+62,Malware,2022-10-15,CorporateServer,Email,High,,10.0.0.61,Resolved
+63,Distributed Denial of Service (DDoS),2022-10-18,WebServer,Network,Critical,104.27.138.153,10.0.0.62,Open
+64,Ransomware,2022-10-22,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.63,Resolved
+65,SQL Injection,2022-10-25,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.64,In Progress
+66,Phishing,2022-10-28,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.65,Resolved
+67,Malware,2022-11-02,CorporateServer,Email,High,192.168.1.113,10.0.0.66,Resolved
+68,Distributed Denial of Service (DDoS),2022-11-05,WebServer,Network,Critical,104.27.138.153,10.0.0.67,Open
+69,Ransomware,2022-11-10,DatabaseServer,Malicious Link,High,185.174.171.4,10.0.0.68,Resolved
+70,SQL Injection,2022-11-15,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.69,Resolved
+71,Phishing,2022-11-18,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.70,Open
+72,Malware,2022-11-22,CorporateServer,Email,High,192.168.1.114,10.0.0.71,Resolved
+73,Distributed Denial of Service (DDoS),2022-11-25,WebServer,Network,Critical,104.27.138.153,,
+74,Phishing,,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.72,Resolved
+75,Malware,2022-12-02,CorporateServer,Email,High,192.168.1.115,10.0.0.73,Open
+76,Distributed Denial of Service (DDoS),2022-12-05,WebServer,Network,Critical,104.27.138.153,10.0.0.74,Resolved
+77,Ransomware,2022-12-10,,,High,185.174.171.4,10.0.0.75,In Progress
+78,SQL Injection,2022-12-15,WebApplication,Code Injection,Critical,192.0.2.55,10.0.0.76,Resolved
+79,Phishing,2022-12-18,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.77,Resolved
+80,Malware,2022-12-22,CorporateServer,Email,High,192.168.1.116,10.0.0.78,Open
+81,Distributed Denial of Service (DDoS),2022-12-25,WebServer,Network,Critical,104.27.138.153,10.0.0.79,Resolved
+82,Ransomware,2022-12-28,DatabaseServer,,High,185.174.171.4,10.0.0.80,Open
+83,SQL Injection,2023-01-02,WebApplication,Code Injection,Critical,,10.0.0.81,Resolved
+84,Phishing,2023-01-05,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,,Resolved
+85,Malware,2023-01-10,CorporateServer,Email,High,192.168.1.117,10.0.0.83,Open
+86,Distributed Denial of Service (DDoS),2023-01-15,WebServer,Network,Critical,104.27.138.153,10.0.0.84,In Progress
+87,,2023-01-18,,Malicious Link,,185.174.171.4,10.0.0.85,Resolved
+88,SQL Injection,2023-01-22,WebApplication,Code Injection,Critical,192.0.2.55,,Open
+89,Phishing,2023-01-25,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.87,Resolved
+90,Malware,2023-01-28,CorporateServer,Email,High,192.168.1.118,10.0.0.88,Resolved
+91,Distributed Denial of Service (DDoS),2023-02-02,WebServer,Network,Critical,104.27.138.153,10.0.0.89,Open
+92,Ransomware,,,Malicious Link,High,185.174.171.4,10.0.0.90,Resolved
+93,SQL Injection,2023-02-10,WebApplication,,Critical,192.0.2.55,10.0.0.91,Resolved
+94,Phishing,2023-02-15,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.92,Open
+95,Malware,2023-02-18,CorporateServer,Email,High,192.168.1.119,10.0.0.93,Resolved
+96,Distributed Denial of Service (DDoS),2023-02-22,WebServer,Network,Critical,104.27.138.153,10.0.0.94,Resolved
+97,Ransomware,2023-02-25,DatabaseServer,Malicious Link,,,10.0.0.95,Open
+98,SQL Injection,2023-02-28,,Code Injection,Critical,192.0.2.55,10.0.0.96,Resolved
+99,,2023-03-02,EmployeeWorkstation,Social Engineering,Medium,203.0.113.42,10.0.0.97,Resolved
+100,Malware,2023-03-05,CorporateServer,Email,,192.168.1.120,10.0.0.98,Open
